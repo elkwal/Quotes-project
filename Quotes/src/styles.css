@@ -4,3 +4,8 @@ body{
   background-color: #082845;
   color: #fff;
 }
+button{
+  color: #082845;
+  background-color: #fff;
+  border: none;
+}
