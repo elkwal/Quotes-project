@@ -1,0 +1,11 @@
+<h1>GITHUB SEARCH</h1>
+<div class="container">
+  <div class="form-group">
+    <label for="search">Github UserName</label>
+    <input type="text" #search required class="form-control">
+  </div>
+  <button type="submit" (click)="searchUsers(search)" class="btn btn-primary btn-lg">Search</button>
+</div>
+<img src="{{persons.avatar_url}}">
+<h2>{{persons.bio}}</h2>
+<h3>{{persons.repos}}</h3>
